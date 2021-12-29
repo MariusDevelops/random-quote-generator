@@ -5,6 +5,7 @@ body {
   padding: 0;
   height: 100vh;
   box-sizing: border-box;
+  font-family: "Spartan", sans-serif;
 }
 
 .app {
@@ -21,21 +22,35 @@ body {
 
 .card {
   background: whitesmoke;
-  width: 40%;
-  height: 20%;
+  max-width: 600px;
+  max-height: 200px;
   display: flex;
   align-items: center;
   flex-direction: column;
   border-radius: 25px;
-  padding: 2%;
-  box-shadow: 10px 10px;
+  margin: 20px;
+  padding: 20px;
+  box-shadow: 9px 10px 20px 7px rgba(0, 0, 0, 0.75);
+}
+
+@media only screen and (max-width: 500px) {
+  .card {
+    max-height: 300px;
+  }
 }
 
 .heading {
-  font-family: "Spartan", sans-serif;
   display: flex;
   align-items: center;
   height: 582px;
+  line-height: 150%;
+  font-size: 24px;
+}
+
+@media only screen and (max-width: 500px) {
+  .heading {
+    font-size: 20px;
+  }
 }
 
 .button {
@@ -48,11 +63,18 @@ body {
   align-items: center;
   cursor: pointer;
   text-transform: uppercase;
-  height: 200px;
+  height: 150px;
   width: 210px;
   opacity: 1;
   background-color: #ffffff;
   border: 1px solid rgba(22, 76, 167, 0.6);
+}
+
+@media only screen and (max-width: 500px) {
+  .button {
+    height: 100px;
+    width: 210px;
+  }
 }
 
 .button span {
@@ -104,12 +126,5 @@ body {
   }
   100% {
     transform: translate3d(0, 0, 0) translateZ(0);
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .card {
-    width: 80%;
-    height: 30%;
   }
 }
