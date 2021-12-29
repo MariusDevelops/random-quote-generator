@@ -1,7 +1,8 @@
 # JavaScript Mastery - Random Quote Generator
 
-This is a Random Quote Generator / React Advice App. We use React on the front end and we make get requests to Advice Slip JSON API.
-Big thanks for project tutorial [JavaScript Mastery](https://www.youtube.com/channel/UCmXmlB4-HJytD7wek0Uo97A).
+This is a Random Quote Generator / React Advice App.<br>
+We use React on the front end and we make get requests to Advice Slip JSON API.<br>
+Big thanks to [JavaScript Mastery](https://www.youtube.com/channel/UCmXmlB4-HJytD7wek0Uo97A) for project tutorial.
 
 ## Table of contents
 
